@@ -4,11 +4,12 @@ public class firstTest {
 
         System.out.println("a + b es: "+(a+b));
         System.out.println("b + c es: "+(b+c));
-        System.out.println("c + a es: "+(c+a)+"\n");
+        System.out.println("c + a es: "+(a+c));
+        System.out.println("a + b + c es :"+(a+b+c)+"\n");
     }
     public static void main(String[] args) {
         //ejercicio 1
-        suma3Num(14.2,22.2,33.3);
+        suma3Num(14.3,23.2,40.9);
 
         //ejercicio 2
         coche MiCoche = new coche();
